@@ -1,0 +1,128 @@
+@media only screen and 
+  (max-width: 1024px) {
+#contentDiv{
+  flex-wrap: wrap;
+  align-content: center;
+  align-items:center;
+}
+
+.contentRow{
+  width:100%;
+}
+
+.logoContent{
+  margin:20px auto;
+}
+
+    .parallax {
+        background-attachment: scroll;
+    }
+
+ #urbanTitle {
+  font-size: 4em
+}
+
+#rappTitle {
+  font-size: 3em;
+}
+}
+
+@media only screen and
+  (max-width: 480px) {
+
+ #urbanTitle {
+  font-size: 3em;
+}
+
+#rappTitle {
+  font-size: 2em;
+}
+
+#headerCont {
+  height: 300px;
+}
+
+.parallax {
+  height: 300px;
+}
+
+header {
+  height: 300px;
+}
+
+}
+
+@media only screen and
+  (max-width: 360px) {
+
+ #urbanTitle {
+  font-size: 3em;
+}
+
+#rappTitle {
+  font-size: 2em;
+}
+
+#headerCont {
+  height: 200px;
+}
+
+#headerText{
+  padding: 10px;
+}
+
+.parallax {
+  height: 200px;
+}
+
+header {
+  height: 200px;
+}
+
+.icon{
+  width:25px;
+  height:25px;
+}
+
+}
+
+@media only screen and
+  (max-width: 800px) {
+
+footer{
+  padding:25px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content:center;
+  font-size:1em;
+}
+
+footer > div {
+  margin:0;
+}
+
+.address {
+  order:3;
+  word-break:keep-all;
+}
+
+.mobile {
+  order:1;
+}
+
+.mail {
+  order:2;
+}
+
+
+
+}
+
+@media only screen and
+  (max-width: 580px) {
+
+.contentRow{
+  min-width:200px;
+  flex-direction:column;
+}
+}
