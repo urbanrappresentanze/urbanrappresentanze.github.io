@@ -14,16 +14,16 @@
   margin:20px auto;
 }
 
-    .parallax {
-        background-attachment: scroll;
-    }
+.parallax {
+    background-attachment: scroll;
+}
 
- #urbanTitle {
-  font-size: 4em
+#urbanTitle {
+  font-size: 5em;
 }
 
 #rappTitle {
-  font-size: 3em;
+  font-size: 4em;
 }
 }
 
@@ -31,23 +31,21 @@
   (max-width: 480px) {
 
  #urbanTitle {
-  font-size: 3em;
+  font-size: 3.8em;
 }
 
 #rappTitle {
-  font-size: 2em;
+  font-size: 2.8em;
 }
 
-#headerCont {
-  height: 300px;
+.logoContent{
+  height:100px;
+  width:100px;
 }
 
-.parallax {
-  height: 300px;
-}
-
-header {
-  height: 300px;
+.logoContent > a > img{
+  height:100px;
+  width:100px;
 }
 
 }
@@ -56,16 +54,13 @@ header {
   (max-width: 360px) {
 
  #urbanTitle {
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 #rappTitle {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
-#headerCont {
-  height: 200px;
-}
 
 #headerText{
   padding: 10px;
@@ -75,13 +70,13 @@ header {
   height: 200px;
 }
 
-header {
-  height: 200px;
-}
-
 .icon{
   width:25px;
   height:25px;
+}
+
+.mail {
+  font-size:0.9em;
 }
 
 }
@@ -94,7 +89,7 @@ footer{
   flex-direction: column;
   align-items: flex-start;
   align-content:center;
-  font-size:1em;
+  font-size:1.5em;
 }
 
 footer > div {
@@ -124,5 +119,16 @@ footer > div {
 .contentRow{
   min-width:200px;
   flex-direction:column;
+}
+
+footer{
+  font-size:1.2em;
+}
+}
+
+@media only screen and
+  (max-width: 380px) {
+footer{
+  font-size:1.1em;
 }
 }

@@ -24,7 +24,6 @@ body {
 header {
   padding-top:30px;
   margin: 0 auto;
-  height:50%;
   width:100%;
 }
 
@@ -33,9 +32,10 @@ header {
   display:flex;
   flex-direction:column;
   padding:25px;
-  background-color: rgba(230,230,230,0.5);
+  /*background-color: rgba(230,230,230,0.5);
   border: 4px solid #333333;
-  border-radius:5px;
+  border-radius:5px;*/
+  text-shadow: 0 0 25px #ffffff;
 }
 
 #headerCont {
@@ -95,7 +95,6 @@ footer {
 }
 
 .address > .icon {
-  padding-top:8px;
 }
 
 .mobile {
@@ -104,26 +103,21 @@ footer {
 
 .mail {
   order:3;
-  padding-left:10px;
 }
 
-
 .mail > span > a {
-  vertical-align: 10px;
   color: #004444;
 }
 
-.mobile > span {
-  vertical-align: 4px;
-}
-
-footer > div > span {
+.footerItem > span {
   margin: auto;
   padding: 10px 10px;
 }
 
-footer > div {
-  margin:auto;
+.footerItem {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
 }
 
 /* MISC */
