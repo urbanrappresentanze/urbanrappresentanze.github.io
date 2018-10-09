@@ -48,6 +48,17 @@
   width:100px;
 }
 
+#geotechLogo img {
+  height: 70px;
+  margin-top:15px;
+}
+
+#niviLogo img {
+  height:150px;
+  margin-top: -20px;
+}
+
+
 }
 
 @media only screen and
