@@ -59,6 +59,23 @@
 }
 
 
+#gaAzzaroni img{
+  height:50px;
+  padding:25px 0;
+}
+
+#sttLogo img{
+  height:80px;
+  width:90px;
+  padding:10px 5px;
+}
+
+#ciabilliLogo img{
+  height:50px;
+  width:100px;
+  padding:25px 0px;
+}
+
 }
 
 @media only screen and
