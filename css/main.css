@@ -96,9 +96,6 @@ footer {
   flex-direction:row;
 }
 
-.address > .icon {
-}
-
 .mobile {
   order:2;
 }
@@ -148,17 +145,27 @@ footer {
 }
 
 .logoContent{
-  height:150px;
-  width:150px;
-  margin:30px;
+  height:180px;
+  width:180px;
+  vertical-align:middle;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-left: 10ch;
+  margin-right: 10ch;
   box-shadow: 0px 2px 5px 4px #222222;
   border-radius:3px;
   overflow:hidden;
+  display:flex;
+  align-items: center;
+}
+
+.logoContent > a {
+  margin:auto;
 }
 
 .logoContent > a > img{
-  height:150px;
-  width:150px;
+  width: 170px;
+  height:auto;
 }
 
 .logoContent:hover{
@@ -167,31 +174,4 @@ footer {
 
 .logoContent {
   background-color:white;
-}
-
-#geotechLogo img {
-  height: 120px;
-  margin-top:15px;
-}
-
-#niviLogo img {
-  height:200px;
-  margin-top: -20px;
-}
-
-#gaAzzaroni img{
-  height:50px;
-  padding:50px 0px;
-}
-
-#sttLogo img{
-  height:80px;
-  width:140px;
-  padding:35px 5px;
-}
-
-#ciabilliLogo img{
-  height:50px;
-  width:150px;
-  padding:50px 0px;
 }

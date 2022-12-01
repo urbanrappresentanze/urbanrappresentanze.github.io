@@ -38,43 +38,6 @@
   font-size: 2.8em;
 }
 
-.logoContent{
-  height:100px;
-  width:100px;
-}
-
-.logoContent > a > img{
-  height:100px;
-  width:100px;
-}
-
-#geotechLogo img {
-  height: 70px;
-  margin-top:15px;
-}
-
-#niviLogo img {
-  height:150px;
-  margin-top: -20px;
-}
-
-
-#gaAzzaroni img{
-  height:50px;
-  padding:25px 0;
-}
-
-#sttLogo img{
-  height:80px;
-  width:90px;
-  padding:10px 5px;
-}
-
-#ciabilliLogo img{
-  height:50px;
-  width:100px;
-  padding:25px 0px;
-}
 
 }
 
